@@ -17,9 +17,7 @@ Vagrant.configure(2) do |config|
 	config.vm.provision "shell",
 		inline:
 			"sudo apt-get update"
-			"sudo apt-get install -y npm"
 			"sudo apt-get install -y nginx"
-			"sudo apt-get install -y git-all"
 
 
   # Disable automatic box update checking. If you disable this, then
